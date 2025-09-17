@@ -42,7 +42,6 @@ AIML-Delivery-Agent
 ## ▶ Running the Code
 Run from the project root:
 
-```bash
 # BFS on small map
 python src/main.py bfs maps/map_small.txt
 
