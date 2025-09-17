@@ -13,6 +13,7 @@ Algorithms implemented:
 
 ##  Project Structure
 
+```
 AIML-Delivery-Agent
 ├─ src/
 │   ├─ environment.py    # Grid & map loader
@@ -31,6 +32,7 @@ AIML-Delivery-Agent
 └─ report.pdf            # Report (analysis + results)
 
 ---
+```
 
 ##  Requirements
 - Python 3.8+  
