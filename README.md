@@ -44,6 +44,7 @@ AIML-Delivery-Agent
 ## ▶ Running the Code
 Run from the project root:
 
+```
 # BFS on small map
 python src/main.py bfs maps/map_small.txt
 
@@ -57,6 +58,9 @@ Expected console output:
 
 Path: [(0, 0), (1, 0), (2, 0), ..., (4, 4)]
 Path length: 10
+Nodes Expanded: ...
+Execution Time : ...
+```
 
 🗺️ Map Format
 	•	S = Start
@@ -65,11 +69,13 @@ Path length: 10
 	•	. = Free space
 
 Example (map_small.txt):
+```
 S . . X .
 . X . . .
 . . . X .
 . X . . .
 . . . . G
+```
 
 
 ## 📊 Experiments
