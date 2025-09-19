@@ -1,13 +1,13 @@
 #  AIML Delivery Agent – Search Algorithms
 
-##  Overview
-This project implements an **autonomous delivery agent** navigating a 2D grid city using **search algorithms**.  
-The agent moves from a **Start (S)** to a **Goal (G)** while avoiding obstacles (X).  
+#  Overview
+This project implements an autonomous delivery agent navigating a 2D grid city using search algorithms.  
+The agent moves from a Start (S) to a Goal (G) while avoiding obstacles (X).  
 
 Algorithms implemented:
 - BFS (Breadth-First Search – uninformed)
 - A* (informed search with Manhattan heuristic)
-- Hill Climbing** (local search with random restart)
+- Hill Climbing (local search with random restart)
 
 ---
 
@@ -78,7 +78,7 @@ S . . X .
 ```
 
 
-## 📊 Experiments
+##  Experiments
 
 I tested three algorithms (BFS, A*, and Hill Climbing) on four maps of increasing size and complexity:
 
@@ -97,7 +97,7 @@ The detailed results and analysis are presented in report.pdf, along with screen
 
 
 
-## 📸 Screenshots
+##  Screenshots
 
 The following screenshots show the console outputs of different algorithms on the test maps:
 
